@@ -1,0 +1,10 @@
+# FastAPI and server
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.5
+
+# Optimization
+pulp==2.9.0
+
+# HTTP client for Home Assistant API
+aiohttp==3.13.3

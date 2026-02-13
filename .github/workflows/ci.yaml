@@ -8,10 +8,10 @@ on:
 
 jobs:
   ci:
+    # yamllint disable-line rule:line-length
     uses: hassio-addons/workflows/.github/workflows/app-ci.yaml@cdca57260bffc365aaadd18b51b0efe8a7910d3d
     permissions:
       actions: read
       contents: read
       packages: read
       security-events: write
-
