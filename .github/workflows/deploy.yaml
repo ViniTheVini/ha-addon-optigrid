@@ -12,6 +12,7 @@ on:
 
 jobs:
   deploy:
+    # yamllint disable-line rule:line-length
     uses: hassio-addons/workflows/.github/workflows/app-deploy.yaml@cdca57260bffc365aaadd18b51b0efe8a7910d3d
     secrets:
       DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
