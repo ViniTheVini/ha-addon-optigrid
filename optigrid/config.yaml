@@ -1,0 +1,19 @@
+name: OptiGrid
+slug: optigrid
+version: "0.1.0"
+description: "Energy optimization with battery management"
+url: "https://github.com/ViniTheVini/ha-addon-optigrid/"
+changelog: "https://github.com/ViniTheVini/ha-addon-optigrid/releases"
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+hassio_api: true
+homeassistant_api: true
+ports:
+  8000/tcp: 8000
+options:
+  log_level: "info"
+schema:
+  log_level: "list(critical|error|warning|info|debug|trace)"

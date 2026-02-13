@@ -1,0 +1,5 @@
+configuration:
+  log_level:
+    name: Log Level
+    description: Set the logging verbosity level for the addon. Changes require saving and restarting the addon to take effect.
+
