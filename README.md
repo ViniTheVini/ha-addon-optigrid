@@ -26,6 +26,7 @@ Energy optimization add-on for Home Assistant with battery management and deferr
 Energy optimization using linear programming to optimize battery charging/discharging and schedule deferrable loads based on electricity prices and solar production.
 
 **Features:**
+
 - Battery charge/discharge optimization
 - Deferrable load scheduling (EV charging, etc.)
 - Solar PV integration
