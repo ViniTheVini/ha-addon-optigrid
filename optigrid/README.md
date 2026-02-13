@@ -27,4 +27,3 @@ See the [documentation](https://github.com/ViniTheVini/ha-addon-optigrid) for AP
 ## Support
 
 For issues and feature requests, visit the [GitHub repository](https://github.com/ViniTheVini/ha-addon-optigrid/issues).
-

@@ -17,6 +17,7 @@ Use Home Assistant automations or REST commands to call the optimization endpoin
 **Endpoint:** `POST http://localhost:8000/optimize`
 
 **Example payload:**
+
 ```json
 {
   "time": {
@@ -84,21 +85,24 @@ The add-on automatically connects to Home Assistant via the Supervisor API. You 
 ## Troubleshooting
 
 ### Add-on won't start
+
 - Check the logs for error messages
 - Verify port 8000 is not in use by another service
 
 ### Optimization fails
+
 - Ensure sensor names are correct
 - Verify historical data is available
 - Check that price forecasts are provided
 
 ### No results returned
+
 - Increase log_level to "debug" to see detailed solver output
 - Check that constraints are feasible (e.g., battery can meet requirements)
 
 ## Support
 
 For issues and questions:
+
 - GitHub Issues: https://github.com/ViniTheVini/ha-addon-optigrid/issues
 - Documentation: https://github.com/ViniTheVini/ha-addon-optigrid
-
