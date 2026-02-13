@@ -9,4 +9,7 @@ on:
 jobs:
   ci:
     uses: hassio-addons/workflows/.github/workflows/app-ci.yaml@cdca57260bffc365aaadd18b51b0efe8a7910d3d
+    permissions:
+      actions: read
+      security-events: write
 
